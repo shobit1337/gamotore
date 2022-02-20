@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Cloud UI -->
+    <link
+      rel="stylesheet"
+      href="https://cloud-ui-css.netlify.app/css/main.css"
+    />
+
+    <!-- Icons Dependency -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="/css/styles.css" />
+    <title>Wishlist</title>
+  </head>
+
+  <body class="bg-dark text-light">
+    <header class="">
+      <nav>
+        <div class="nav-logo">
+          <img src="/assets/gamotore-logo-light.svg" alt="" />
+        </div>
+        <div class="nav-list">
+          <div class="nav-left">
+            <a href="" class="nav-item">Store</a>
+            <a href="" class="nav-item">About</a>
+            <a href="" class="nav-item">Support</a>
+          </div>
+          <div class="nav-right">
+            <a href="" class="nav-item"><i class="fas fa-globe"></i></a>
+            <a href="" class="nav-item"><i class="fas fa-user"></i>SIGN IN</a>
+            <a href="" class="nav-item"
+              ><i class="fas fa-user-plus"></i>SIGN UP</a
+            >
+          </div>
+        </div>
+      </nav>
+    </header>
+    <div class="container">
+      <!-- Sticky Navbar -->
+      <div class="sticky-header text-dark-light text-medium">
+        <div class="input-text-group">
+          <i class="fas fa-search"></i>
+          <input type="text" placeholder="Search" class="input-field" />
+        </div>
+        <div class="d-flex justify-between items-center" style="width: 100%">
+          <span class="d-flex gap-xs items-center">
+            <a href="#">Discover</a>
+            <a href="#">Browse</a>
+            <a href="#">News</a>
+          </span>
+          <span class="d-flex gap-xs items-center">
+            <a href="#">Wishlist</a>
+            <a href="#" class="text-light"
+              >Cart
+              <div class="badge badge-accient">1</div></a
+            >
+          </span>
+        </div>
+      </div>
+
+      <!-- Main Content -->
+      <main class="main-section">
+        <h4 class="cart-title border-top py-sm">My Wishlist</h4>
+
+        <!-- Cart Container -->
+        <div class="product-container">
+          <div class="cart-page-details">
+            <!-- Cart Items -->
+            <div class="cart-card">
+              <img
+                src="https://cdn1.epicgames.com/spt-assets/7b69aea9b3404faaa461911f99b6cbbc/download-henchman-story-offer-iq9jq.png?h=1280&resize=1&w=960"
+                alt=""
+              />
+              <div class="d-flex flex-column justify-between flex-grow">
+                <div class="d-flex justify-between">
+                  <div class="d-flex gap-xxxs flex-column">
+                    <div class="badge">BASE GAME</div>
+                    <div class="product-name">HENCHMAN STORY</div>
+                  </div>
+
+                  <div class="d-flex gap-xxxs flex-column">
+                    <div class="d-flex items-center justify-between gap-sm">
+                      <span class="badge">-33%</span>
+                      <span class="mrp-price text-dark-lighter">$349</span>
+                      <span class="current-price">$233.83</span>
+                    </div>
+                    <span> Sale ends 3/4/2022 at 4:30 AM </span>
+                  </div>
+                </div>
+
+                <div class="d-flex justify-between items-center">
+                  <i class="fab fa-windows"></i>
+                  <div class="d-flex items-center gap-sm">
+                    <a href="#" class="text-dark-lighter">Remove</a>
+                    <button
+                      class="btn btn-outlined btn-rounded btn-light btn-sm"
+                    >
+                      ADD TO CART
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Cart Item -->
+            <div class="cart-card">
+              <img
+                src="https://cdn1.epicgames.com/salesEvent/salesEvent/EGS_DyingLight2StayHuman_Techland_S4_1200x1600-b3d66b4576fd6488b674710e13493435?h=1280&resize=1&w=960"
+                alt=""
+              />
+              <div class="d-flex flex-column justify-between flex-grow">
+                <div class="d-flex justify-between">
+                  <div class="d-flex gap-xxxs flex-column">
+                    <div class="badge">BASE GAME</div>
+                    <div class="product-name">Dying Light 2 Stay Human</div>
+                  </div>
+
+                  <div class="d-flex gap-xxxs flex-column">
+                    <div class="d-flex items-center justify-between gap-sm">
+                      <span class="current-price">₹2,999</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="d-flex justify-between items-center">
+                  <i class="fab fa-windows"></i>
+                  <div class="d-flex items-center gap-sm">
+                    <a href="#" class="text-dark-lighter">Remove</a>
+                    <button
+                      class="btn btn-outlined btn-rounded btn-light btn-sm"
+                    >
+                      ADD TO CART
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="d-flex justify-between items-center text-lg">
+        <span>
+          <a href=""><i class="fab fa-facebook-square"></i></a>
+          <a href=""><i class="fab fa-twitter-square"></i></a>
+          <a href=""><i class="fab fa-youtube-square"></i></a>
+        </span>
+        <span>
+          <a href="#"><i class="far fa-caret-square-up"></i></a>
+        </span>
+      </div>
+      <div>
+        <div class="footer-heading">Resources</div>
+        <div>
+          <div class="d-flex gap-sm">
+            <div class="d-flex flex-column gap-xxxs">
+              <a href="">Support-A-Creator</a>
+              <a href="">Publish on Epic Games</a>
+              <a href="">Careers</a>
+              <a href="">Company</a>
+            </div>
+            <div class="d-flex flex-column gap-xxxs">
+              <a href="">Fan Art policy</a>
+              <a href="">UX Research</a>
+              <a href="">Store</a>
+            </div>
+            <div class="d-flex flex-column gap-xxxs">
+              <a href="">Online Services</a>
+              <a href="">Community Rules</a>
+              <a href="">Newsletter</a>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="footer-heading">Made by Gamotore</div>
+          <div>
+            <div class="d-flex gap-sm">
+              <div class="d-flex flex-column gap-xxxs">
+                <a href="">Fan Art policy</a>
+                <a href="">UX Research</a>
+                <a href="">Store</a>
+              </div>
+              <div class="d-flex flex-column gap-xxxs">
+                <a href="">Online Services</a>
+                <a href="">Community Rules</a>
+                <a href="">Newsletter</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        © 2022, Gamotore, Inc. All rights reserved. Lorem ipsum dolor sit amet,
+        consectetur adipisicing elit. Doloremque alias praesentium cum
+        repellendus veritatis inventore nemo velit necessitatibus magnam
+        officiis ipsa dignissimos omnis, eius quasi facere excepturi incidunt id
+        blanditiis? Molestiae vitae voluptatibus accusamus, rerum voluptatum
+        commodi veniam quos alias, laudantium suscipit ex nihil blanditiis
+        adipisci a pariatur similique labore deleniti.
+      </div>
+      <div class="d-flex justify-between items-center">
+        <span>
+          <a href="">Terms of Services</a>
+          <a href="">Privacy Policy</a>
+          <a href="">Store Refund Policy</a>
+        </span>
+      </div>
+    </footer>
+  </body>
+</html>
