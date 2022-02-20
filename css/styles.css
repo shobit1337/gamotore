@@ -288,6 +288,34 @@ header > nav {
   padding: var(--space-xxxs);
 }
 
+/* Authentication */
+.auth-card {
+  border-radius: var(--radius-md);
+  background-color: var(--dark-light);
+  color: var(--dark-lighter);
+  padding: var(--space-md);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-sm);
+  max-width: 30rem;
+  text-align: center;
+}
+
+.auth-card img {
+  max-width: 20%;
+  align-self: center;
+}
+
+.auth-card .input-text {
+  border-radius: var(--radius-md);
+  background-color: transparent;
+  padding: var(--space-xs);
+  border: 1px solid var(--dark-lighter);
+  outline: none;
+  color: var(--dark-lightest);
+  flex-grow: 1;
+}
+
 /* Media Queries */
 
 @media (max-width: 1400px) {

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Cloud UI -->
+    <link
+      rel="stylesheet"
+      href="https://cloud-ui-css.netlify.app/css/main.css"
+    />
+
+    <!-- Icons Dependency -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="/css/styles.css" />
+    <title>Sign In</title>
+  </head>
+
+  <body class="bg-dark text-light d-flex flex-center" style="height: 100vh">
+    <div class="auth-card">
+      <img src="/assets/gamotore-logo-light.svg" alt="" />
+      <h4 class="text-light">Sign In</h4>
+      <input
+        class="input-text"
+        type="email"
+        name="email"
+        id="email"
+        placeholder="Email"
+      />
+      <input
+        class="input-text"
+        type="password"
+        name="password"
+        id="password"
+        placeholder="Password"
+      />
+      <span class="d-flex justify-start gap-xs items-center">
+        <input type="checkbox" name="remember-me" id="remember-me" />
+        <span>Remember me</span>
+      </span>
+      <button class="btn btn-rounded text-light">Sign In</button>
+      <span
+        >Forgot your password?
+        <a class="text-light" href="/pages/forgot-password.html">Reset</a></span
+      >
+      <span
+        >Don't have a Gamotore Account?
+        <a class="text-light" href="/pages/sign-up.html">Sign Up</a></span
+      >
+      <span>Back to <a class="text-light" href="/">Store</a></span>
+    </div>
+  </body>
+</html>
