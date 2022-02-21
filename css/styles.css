@@ -416,6 +416,24 @@ header > nav {
   opacity: 1;
 }
 
+/* Profile Page */
+.profile-container {
+  background-color: var(--dark-light);
+  border-radius: var(--radius-md);
+  margin-bottom: var(--space-md);
+  display: flex;
+  justify-content: space-between;
+}
+
+.profile-setting {
+  flex: 0 1 auto;
+}
+
+.account-setting {
+  flex: 0 1 auto;
+}
+*/
+
 /* Media Queries */
 
 @media (max-width: 1400px) {
