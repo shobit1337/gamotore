@@ -186,13 +186,39 @@ header > nav {
 .product-card {
   width: 14.3rem;
   height: 25rem;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-xs);
 }
 
-.product-card > .product-card-image {
-  height: 19rem;
+.product-card-image {
+  height: auto;
   border-radius: var(--radius-md);
   overflow: hidden;
   cursor: pointer;
+  position: relative;
+}
+
+.product-card-overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 99;
+  display: flex;
+  justify-content: flex-end;
+  padding: var(--space-xxs);
+  color: var(--dark-color);
+  font-size: var(--text-md);
+  background-color: transparent;
+  opacity: 0;
+}
+
+.product-card-image > img:hover {
+  -webkit-filter: brightness(90%);
+}
+
+.product-card:hover .product-card-overlay {
+  opacity: 1;
 }
 
 /* footer */
