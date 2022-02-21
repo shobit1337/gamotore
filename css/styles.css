@@ -70,8 +70,6 @@ header > nav {
 
 .hero-section {
   display: flex;
-  /* align-items: center; */
-  /* justify-content: center; */
   gap: var(--space-md);
   max-width: 100%;
   max-height: 33rem;
@@ -80,7 +78,6 @@ header > nav {
 
 .hero-image {
   position: relative;
-  /* flex-basis: 60%; */
   max-width: 82rem;
   max-height: 46rem;
   border-radius: 2rem;
@@ -91,7 +88,6 @@ header > nav {
 .hero-image-overflow {
   padding: var(--space-md);
   display: flex;
-  /* align-items: flex-end; */
   justify-content: flex-end;
   gap: var(--space-sm);
   font-weight: 500;
@@ -100,19 +96,11 @@ header > nav {
   position: absolute;
   inset: 0;
   max-width: 40%;
-  /* opacity: 0; */
-  /* transition: opacity 150ms var(--ease-in-out); */
 }
 
-/* .hero-image > img:hover + .hero-image-overflow {
-  opacity: 1;
-} */
-
 .hero-list {
-  /* flex-basis: 30%; */
   display: flex;
   flex-direction: column;
-  /* align-items: center; */
   justify-content: center;
   gap: 2px;
   height: inherit;
@@ -232,7 +220,6 @@ header > nav {
 .product-page-image {
   border-radius: var(--radius-md);
   overflow: hidden;
-  /* padding: 0 var(--space-md); */
 }
 
 .product-page-card {
@@ -350,7 +337,6 @@ header > nav {
 /* Filters */
 .filter-category {
   position: relative;
-  /* border-top: 1px solid var(--dark-light); */
   border-bottom: 1px solid;
   border-color: var(--dark-light);
   color: var(--dark-light);
@@ -452,7 +438,6 @@ header > nav {
 
 .pagination a {
   color: var(--dark-lighter);
-  /* outline: 1px solid; */
   padding: 5px 8px;
 }
 
@@ -470,8 +455,8 @@ header > nav {
   border: 4px solid var(--dark-lightest);
   border-radius: 50%;
   border-top: 4px solid var(--dark-light);
-  width: 30px;
-  height: 30px;
+  width: var(--space-md);
+  height: var(--space-md);
   -webkit-animation: spin 2s linear infinite; /* Safari */
   animation: spin 2s linear infinite;
 }
