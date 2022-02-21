@@ -432,7 +432,16 @@ header > nav {
 .account-setting {
   flex: 0 1 auto;
 }
-*/
+
+/* Address Management */
+.address-card {
+  background-color: var(--dark-light);
+  padding: var(--space-sm);
+  border-radius: var(--radius-md);
+  display: flex;
+  gap: var(--space-sm);
+  align-items: center;
+}
 
 /* Media Queries */
 
