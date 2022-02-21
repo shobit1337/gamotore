@@ -74,11 +74,27 @@
 
       <!-- Main Content -->
       <main class="main-section">
-        <h4 class="cart-title border-top py-sm">My Cart</h4>
+        <h4
+          class="cart-title border-top py-sm d-flex justify-between items-center gap-xs"
+        >
+          My Cart
+        </h4>
 
         <!-- Cart Container -->
         <div class="product-container">
           <div class="cart-page-details">
+            <div class="d-flex justify-between items-center">
+              <a
+                class="text-sm btn btn-xs btn-outlined btn-rounded btn-light text-light d-flex flex-center gap-xs"
+                href="#"
+                >Empty Cart<i class="fab fa-dropbox"></i
+              ></a>
+              <a
+                class="text-sm btn btn-xs btn-outlined btn-rounded btn-light text-light d-flex flex-center gap-xs"
+                href="#"
+                >SHARE CART<i class="fas fa-share-alt"></i
+              ></a>
+            </div>
             <!-- Cart Items -->
             <div class="cart-card">
               <img
@@ -155,6 +171,17 @@
             <div class="cart-page-card-detail">
               <span class="text-dark-light text-semibold">Sale Discount</span
               ><span>-₹115.17</span>
+            </div>
+            <div class="cart-page-card-detail">
+              <span class="text-dark-light text-semibold">Coupon</span>
+              <div class="input-field-group">
+                <input
+                  type="text"
+                  class="coupon-input"
+                  placeholder="Enter coupon"
+                />
+                <a href="" class="add-coupon text-primary text-xs">ADD </a>
+              </div>
             </div>
             <div class="cart-page-card-detail">
               <span class="text-dark-light text-semibold">Taxes</span

@@ -291,6 +291,22 @@ header > nav {
   padding: var(--space-xxxs);
 }
 
+.input-field-group {
+  position: relative;
+}
+
+.input-field-group > .add-coupon {
+  position: absolute;
+  right: 5px;
+}
+
+.coupon-input {
+  background-color: var(--dark-color);
+  color: var(--dark-lighter);
+  border: none;
+  outline: none;
+}
+
 /* Authentication */
 .auth-card {
   border-radius: var(--radius-md);
