@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Cloud UI -->
+    <link
+      rel="stylesheet"
+      href="https://cloud-ui-css.netlify.app/css/main.css"
+    />
+
+    <!-- Icons Dependency -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="/css/styles.css" />
+    <title>Profile</title>
+  </head>
+
+  <body class="bg-dark text-light">
+    <header class="">
+      <nav>
+        <div class="nav-logo">
+          <img src="/assets/gamotore-logo-light.svg" alt="" />
+        </div>
+        <div class="nav-list">
+          <div class="nav-left">
+            <a href="" class="nav-item">Store</a>
+            <a href="" class="nav-item">About</a>
+            <a href="" class="nav-item">Support</a>
+          </div>
+          <div class="nav-right">
+            <a href="" class="nav-item"><i class="fas fa-globe"></i></a>
+            <a href="/pages/profile.html" class="nav-item"
+              ><i class="fas fa-user mr-xxxs"></i>User</a
+            >
+            <a href="/pages/sign-up.html" class="nav-item"
+              ><i class="fas fa-sign-out-alt mr-xxxs"></i>LOG OUT</a
+            >
+          </div>
+        </div>
+      </nav>
+    </header>
+    <div class="container">
+      <!-- Sticky Navbar -->
+      <div class="sticky-header text-dark-light text-medium">
+        <div class="input-text-group">
+          <i class="fas fa-search"></i>
+          <input type="text" placeholder="Search" class="input-field" />
+        </div>
+        <div class="d-flex justify-between items-center" style="width: 100%">
+          <span class="d-flex gap-xs items-center">
+            <a href="/">Discover</a>
+            <a href="/pages/browse-products.html">Discover</a>
+            <a href="#">News</a>
+          </span>
+          <span class="d-flex gap-xs items-center">
+            <a href="/pages/wishlist.html">Wishlist</a>
+            <a href="/pages/cart.html" class="text-light"
+              >Cart
+              <div class="badge badge-accient">1</div></a
+            >
+          </span>
+        </div>
+      </div>
+
+      <!-- Main Content -->
+      <main class="main-section">
+        <h4 class="cart-title border-top py-sm">My Profile</h4>
+
+        <!-- Profile Container -->
+        <div class="profile-container">
+          <div class="auth-card profile-setting">
+            <input
+              class="input-text"
+              type="text"
+              name="country"
+              id="country"
+              placeholder="Country"
+              value="India"
+            />
+            <span class="d-flex gap-sm">
+              <input
+                class="input-text"
+                type="text"
+                name="first-name"
+                id="first-name"
+                placeholder="First Name"
+                value="Shobit"
+              />
+              <input
+                class="input-text"
+                type="text"
+                name="last-name"
+                id="last-name"
+                placeholder="Last Name"
+                value="Deshwal"
+              />
+            </span>
+            <input
+              class="input-text"
+              type="text"
+              name="display-name"
+              id="display-name"
+              placeholder="Display Name"
+              value="shobit1337"
+            />
+            <input
+              class="input-text"
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Email"
+              value="shobitdeshwal1337@gmail.com"
+            />
+            <input
+              class="input-text"
+              type="password"
+              name="password"
+              id="password"
+              placeholder="Old Password"
+            />
+            <input
+              class="input-text"
+              type="password"
+              name="password"
+              id="password"
+              placeholder="New Password"
+            />
+            <button class="btn btn-rounded text-light">Update</button>
+          </div>
+          <div class="account-setting"></div>
+        </div>
+      </main>
+    </div>
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="d-flex justify-between items-center text-lg">
+        <span>
+          <a href=""><i class="fab fa-facebook-square"></i></a>
+          <a href=""><i class="fab fa-twitter-square"></i></a>
+          <a href=""><i class="fab fa-youtube-square"></i></a>
+        </span>
+        <span>
+          <a href="#"><i class="far fa-caret-square-up"></i></a>
+        </span>
+      </div>
+      <div>
+        <div class="footer-heading">Resources</div>
+        <div>
+          <div class="d-flex gap-sm">
+            <div class="d-flex flex-column gap-xxxs">
+              <a href="">Support-A-Creator</a>
+              <a href="">Publish on Epic Games</a>
+              <a href="">Careers</a>
+              <a href="">Company</a>
+            </div>
+            <div class="d-flex flex-column gap-xxxs">
+              <a href="">Fan Art policy</a>
+              <a href="">UX Research</a>
+              <a href="">Store</a>
+            </div>
+            <div class="d-flex flex-column gap-xxxs">
+              <a href="">Online Services</a>
+              <a href="">Community Rules</a>
+              <a href="">Newsletter</a>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="footer-heading">Made by Gamotore</div>
+          <div>
+            <div class="d-flex gap-sm">
+              <div class="d-flex flex-column gap-xxxs">
+                <a href="">Fan Art policy</a>
+                <a href="">UX Research</a>
+                <a href="">Store</a>
+              </div>
+              <div class="d-flex flex-column gap-xxxs">
+                <a href="">Online Services</a>
+                <a href="">Community Rules</a>
+                <a href="">Newsletter</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        © 2022, Gamotore, Inc. All rights reserved. Lorem ipsum dolor sit amet,
+        consectetur adipisicing elit. Doloremque alias praesentium cum
+        repellendus veritatis inventore nemo velit necessitatibus magnam
+        officiis ipsa dignissimos omnis, eius quasi facere excepturi incidunt id
+        blanditiis? Molestiae vitae voluptatibus accusamus, rerum voluptatum
+        commodi veniam quos alias, laudantium suscipit ex nihil blanditiis
+        adipisci a pariatur similique labore deleniti.
+      </div>
+      <div class="d-flex justify-between items-center">
+        <span>
+          <a href="">Terms of Services</a>
+          <a href="">Privacy Policy</a>
+          <a href="">Store Refund Policy</a>
+        </span>
+      </div>
+    </footer>
+  </body>
+</html>
