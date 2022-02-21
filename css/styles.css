@@ -458,7 +458,12 @@ header > nav {
   border-radius: var(--radius-md);
   display: flex;
   gap: var(--space-sm);
+  justify-content: space-between;
   align-items: center;
+}
+.delete-btn:hover {
+  color: var(--dark-lighter);
+  cursor: pointer;
 }
 
 /* Pagination */
