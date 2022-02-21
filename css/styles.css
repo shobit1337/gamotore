@@ -443,6 +443,58 @@ header > nav {
   align-items: center;
 }
 
+/* Pagination */
+.pagination {
+  display: flex;
+  justify-content: center;
+  gap: var(--space-xs);
+}
+
+.pagination a {
+  color: var(--dark-lighter);
+  /* outline: 1px solid; */
+  padding: 5px 8px;
+}
+
+.pagination a:hover {
+  color: var(--light-color);
+}
+
+.pagination a.active {
+  background-color: var(--dark-light);
+  color: var(--light-color);
+}
+
+/* Loader */
+.loader {
+  border: 4px solid var(--dark-lightest);
+  border-radius: 50%;
+  border-top: 4px solid var(--dark-light);
+  width: 30px;
+  height: 30px;
+  -webkit-animation: spin 2s linear infinite; /* Safari */
+  animation: spin 2s linear infinite;
+}
+
+/* Safari */
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
 /* Media Queries */
 
 @media (max-width: 1400px) {
